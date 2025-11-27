@@ -2,20 +2,18 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>SNU TimeSync</title>
+  <title>TimeSync</title>
   <link rel="stylesheet" href="popup.css" />
 </head>
-
 <body>
-  <h2>SNU TimeSync</h2>
-
+  <h2>TimeSync</h2>
   <div id="status" class="status">Ready</div>
-
-  <button id="extractBtn" class="btn">Sync Timetable</button>
-
+  <button id="extractBtn" class="btn">Extract Timetable</button>
   <pre id="output" class="output"></pre>
 
+  <!-- parser must be loaded BEFORE popup.js -->
   <script src="../utils/parser.js"></script>
   <script src="popup.js"></script>
 </body>
 </html>
+  

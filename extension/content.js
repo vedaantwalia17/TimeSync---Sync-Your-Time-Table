@@ -1,1 +1,1 @@
-console.log("SNU TimeSync content.js loaded!");
+console.log("TimeSync content.js loaded!");
