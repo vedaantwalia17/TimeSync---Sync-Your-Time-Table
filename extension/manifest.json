@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "SNU TimeSync",
+  "version": "1.0.0",
+  "description": "Extracts the Time-Table from the SNU ERP and syncs it to Google Calendar.",
+
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+
+  "action": {
+    "default_title": "SNU TimeSync",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "downloads"
+  ],
+
+  "host_permissions": [
+    "https://prodweb.snu.in/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://prodweb.snu.in/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
