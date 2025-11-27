@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "SNU TimeSync",
+  "name": "TimeSync - Sync Your Time-Table",
   "version": "1.0.0",
   "description": "Extracts the Time-Table from the SNU ERP and syncs it to Google Calendar.",
 
@@ -11,7 +11,7 @@
   },
 
   "action": {
-    "default_title": "SNU TimeSync",
+    "default_title": "TimeSync - Sync Your Time-Table",
     "default_popup": "popup.html"
   },
 
